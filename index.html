@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>de/codificador</title>
+</head>
+<body>
+    
+    <header>
+        <p>"Encriptador de textos"</p>
+        
+    </header>
+    <main>
+        
+        <img src="imagenes/focos.png" id="imagen-focos">
+        <img src="imagenes/esconder.png" id="imagen-esconder">
+        <img src="imagenes/orgullosa.png" id="imagen-orgullosa" style="display: none;">
+        <img src="imagenes/libro.png" id="imagen-libro">
+        <img src="imagenes/flecha.png" id="imagen-flecha">
+        <img src="imagenes/mirando.png" id="imagen-mirando">
+        <img src="imagenes/susurro.png" id="imagen-susurro" style="display: none;">
+        
+        <textarea id="panel-de-texto" rows="4" cols="20" placeholder="Ingresa el texto aqui, solo letras minusculas y sin acentos"></textarea>
+        <div class="rectangulo">
+        
+            <p id="texto-rectangulo" style="display: none;">Mensaje encontrado</p>
+            <p id="texto2-rectangulo" >Ingresa el texto que <br> desees encriptar o desencriptar.</p>
+
+        </div>
+        <div>
+
+            
+        <button onclick="encriptar();" id="boton-encriptar">encriptar</button>
+        <button onclick="desencriptar();" id="boton-desencriptar">desencriptar</button>
+        <button onclick="copiarTexto();" id="boton-copiar" style="display: none;" >copiar</button>
+
+
+        </div>
+    </main>
+    <script src="algorithm.js"></script>
+</body>
+</html>
