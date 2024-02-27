@@ -50,7 +50,7 @@ function accionRealizada(){
 }
 
 function cadenaInvalida(){
-    asignarTextoElemento('#texto2-rectangulo',"El texto no se puede encriptar");
+    asignarTextoElemento('#texto2-rectangulo',"El texto no se puede   encriptar");
     Des_ActivarSusurro("inline");
     reiniciar();
     return;
