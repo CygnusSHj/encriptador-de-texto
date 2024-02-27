@@ -170,7 +170,6 @@ function desencriptar() {
         return;
     }
     if(!soloMinusculas(dato)){
-        alert("xd");
         textoNoEncriptado();
         return;
     }
